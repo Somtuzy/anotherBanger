@@ -8,7 +8,7 @@ module.exports = (function database() {
             dbName: 'Bale'
         })
         .then(() => {
-            logger.info('Database connection successful...')
+            logger.info('Database connected successfully...')
         })
         .catch(err => {
             logger.error('Error connecting to the database:', err)
